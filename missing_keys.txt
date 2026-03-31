@@ -1,0 +1,22 @@
+Da das V3 Control Board nur in begrenzter Stückzahl verkauft wurde und nicht alle Funktionen unterstützt, wird es dafür **keine weiteren Firmware-Updates** mehr geben.
+
+Alle momentan vorhandenen Funktionen bleiben bestehen.
+Das OTA-Update ist fehlgeschlagen. Stelle sicher, dass das verbundene WLAN über eine funktionierende Internetverbindung verfügt.
+Der High-Speed Modus erhöht die Geschwindigkeit des Motors. Auto-Stopp ist dabei nicht verfügbar.
+Der Lüfter schaltet sich standardmäßig 10 Sekunden nach stoppen des Respoolers aus.
+Der Quellcode sowie alle weiteren Dateien sind Open Source und können auf [GitHub](https://github.com/LukasT03/LTS-Respooler) heruntergeladen werden.
+Der Respooler hat automatisch angehalten. Überprüfe, ob der Motor blockiert ist.
+Der Respooler stoppt anhand der übertragenen Menge. Empfohlen, wenn die obere Spule größer als 1 kg ist.
+Der Respooler stoppt anhand des Filament Sensors, sobald die obere Spule leer ist. Empfohlen, wenn Filament zwischen zwei 1 kg Spulen übertragen wird.
+Die Empfindlichkeit hängt vom Netzteil ab. Wenn der Motor zu oft stoppt, verringere die Empfindlichkeit in den Einstellungen.
+Für genauere Zeitangaben bzw. Respool-Mengen die benötigte Dauer für eine 1 kg Spule bei 80 % Geschwindigkeit messen und hier anpassen.
+Für OTA-Updates muss das Board mit dem lokalen WLAN verbunden sein. Alternativ dazu kann auch der Web Flasher auf der LTS Design Webseite genutzt werden.
+Passe die Motorstärke an, wenn der Motor heiß wird oder vibriert. Auch ein schwaches Netzteil kann die Stärke beeinflussen.
+Sende bei Fragen, Problemen oder Anregungen gerne eine E-Mail an info@lts-design.com.
+Stelle die Endanschläge links und rechts so ein, dass die Filamentführung gerade so die Seiten berührt.
+Stelle sicher, dass das Board eingeschaltet ist und starte die Kopplung über den Button unten.
+Um das Respooler Board mit der App zu steuern, musst du es zuerst mit deinem %@ verbinden.
+Wähle die Variante deines Respoolers. Abhängig davon werden dir die verfügbaren Einstellungen angezeigt. Die Auswahl wird auf dem Board gespeichert und kann jederzeit in den Einstellungen geändert werden.
+Wähle die Variante deines Respoolers. Abhängig davon werden dir die verfügbaren Einstellungen angezeigt. Die Auswahl wird auf dem Board gespeichert.
+Wenn der Sensor deaktiviert ist, wird nicht auf den Verlust von Filament reagiert.
+Wenn dir die App gefällt, kannst du hier eine kleine Spende leisten. Es werden dadurch keine zusätzlichen Funktionalitäten freigeschaltet.
